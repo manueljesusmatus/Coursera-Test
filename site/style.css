@@ -5,6 +5,12 @@
 
 h1 {
     margin-bottom: 15px;
+    text-align: center;
+}
+
+.body {
+    margin-left : 5%;
+    margin-right: 5%;
 }
 
 p {
@@ -18,10 +24,39 @@ p {
     color: white;
 }
 
+.side_block {
+    width: 90%;
+    margin-top : 0;
+    margin-bottom: 16px;
+    height: 250px;
+    background-color: gray;
+}
+
 /* Simple Responsive Framework. */
 .row {
     width: 100%;
 }
+
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #008CBA; 
+    border: 2px solid white;
+}
+  
+.button:hover {
+    background-color: white;
+    border: 2px solid #008CBA;
+    color: black;
+}
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -39,7 +74,6 @@ p {
     .col-lg-11,
     .col-lg-12 {
         float: left;
-        border: 1px solid green;
     }
 
     .col-lg-1 {
@@ -107,7 +141,6 @@ p {
     .col-md-11,
     .col-md-12 {
         float: left;
-        border: 1px solid green;
     }
 
     .col-md-1 {
@@ -155,6 +188,73 @@ p {
     }
 
     .col-md-12 {
+        width: 100%;
+    }
+}
+
+/********** Small devices only **********/
+@media (max-width: 991px) {
+
+    .col-sm-1,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12 {
+        float: left;
+    }
+
+    .col-sm-1 {
+        width: 8.33%;
+    }
+
+    .col-sm-2 {
+        width: 16.66%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+    }
+
+    .col-sm-5 {
+        width: 41.66%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-7 {
+        width: 58.33%;
+    }
+
+    .col-sm-8 {
+        width: 66.66%;
+    }
+
+    .col-sm-9 {
+        width: 74.99%;
+    }
+
+    .col-sm-10 {
+        width: 83.33%;
+    }
+
+    .col-sm-11 {
+        width: 91.66%;
+    }
+
+    .col-sm-12 {
         width: 100%;
     }
 }
