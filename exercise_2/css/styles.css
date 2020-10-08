@@ -1,0 +1,25 @@
+:root {
+    --main-color :  #DE8017;
+    --border-color : #c9700a;
+}
+
+.bg-custom {
+    background-color: var(--main-color);
+}
+
+
+
+.bg-custom2 {
+    background-color: var(--border-color);
+}
+
+.btn-primary {
+    color: black;
+    background-color: var(--main-color);
+    border-color: var(--border-color); /*set the color you want here*/
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    color: black;
+    background-color: white;
+    border-color: var(--main-color); /*set the color you want here*/
+}
