@@ -1,0 +1,89 @@
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+#navbar-food {
+    border-radius: 0;
+    border: 0;
+    color: black;
+    background-color: slategrey;
+}
+
+#btn:active, #btn:focus, #btn:hover{
+    border-color: black;
+    background-color: white
+}
+
+#brand {
+    color: black;
+    font-size: 2em;
+}
+
+#btn, #collapsable-nav  {
+    border-color: black;
+}
+
+#ic-bar{
+    background-color: black;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "caflisch script", cursive;
+    color: black;
+}
+
+#nav-list {
+    text-align: center;
+}
+
+li:hover {
+    background-color: white;
+}
+
+li > a {
+    color: black !important;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.section { 
+    margin: 25px;
+    position: relative;
+    background-color: slategrey;
+    border: 2px solid;
+    text-align: justify;
+}
+
+.content {
+    padding: 0px 5% 5% 5%;
+    font-size: 1.2em;
+    overflow: hidden;
+}
+
+.footer {
+    padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: black;
+}
+
+.section > h2 {
+    text-align: center;
+}
+
+.pd-0 {
+    padding: 0px;
+}
+
+/*
+    NEW NAVBAR BREAKPOINT JUST USING BOOTSTRAP 3 KEKW
+    (btw, i'm setting xs as lower than 768px)
+    BOOTSTRAP 4 >>> BOOTSTRAP 3 my friends
+*/
+@media (min-width: 768px) {
+    .hidden-xs-custom {
+      display: none !important;
+    }
+}
